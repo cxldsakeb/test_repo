@@ -1,0 +1,34 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #788e8e;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0.1);
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+/* Game Board STYLES*/
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(var(--grid-size), 1fr);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+
+#reset-button{
+    display: block;
+    margin: 0 auto;
+}
